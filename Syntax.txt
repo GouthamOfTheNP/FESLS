@@ -1,0 +1,40 @@
+(- -) = placeholder value
+-- -- = explanation
+_--_ = condition
+- - = keyword
+
+Basic imperative, OOP, and functional programming syntax:
+(-var_name-) = (str/int/float) or (mt-list/imt-list/key-list)
+-fnc- (-function name-) (*args): 
+	(-code block-)
+-class- (-class name-):
+	-constructor-(*args):
+		(-code block-)
+	-instance method- (-method name-) (*args):
+		(-code block-)
+	@class
+	-class method- (-method name-) (*args):
+		(-code block-)
+	@static
+	-static method- (-method name-) (*args):
+		(-code block-)
+	@-variable-.property
+
+(-object name-) -of- (-class name-) (This object declaration to be used only when an object of non-built-in class is needed)
+(variable-) (Variable to be used only if the method returns a value) = (-object name).(-method-)
+-if- _--_:
+	(-code block-)
+-else if- _--_:
+	(-code block-)
+-else-:
+	(-code block-)
+-match-:
+	case _--_:
+		(-code block-)
+-for- (-case-) -in- (-cases-):
+	(-code block-)
+-while- _--_ --is True--:
+	(-code block-)
+printlow(args=output)
+inputlow(args=variable(default=-none-), output)
+-return- (-statement-)
